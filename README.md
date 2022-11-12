@@ -9,7 +9,7 @@ Given Home Credit's default risk [data](https://www.kaggle.com/competitions/home
 
 As the objective of the project is only to predict, at no point will we touch on output interpretability nor try to point out the most prominent features that drive defaulting on a loan.
 
-In order to accomplish this we will use Python and in particular [Scikit learn 1.1.3](https://scikit-learn.org/stable/index.html) for both data processing as well as model implementation. For Gradient Boosted Trees, we will use the [XGBoost](https://xgboost.readthedocs.io/en/stable/index.html) package. 
+In order to accomplish this we will use Python and in particular [Scikit learn 1.1.3](https://scikit-learn.org/stable/index.html) for both data processing as well as model implementation. For Gradient Boosted Trees, we will use the [XGBoost](https://xgboost.readthedocs.io/en/stable/index.html) package.
 
 ### Content
 - [Data processing](https://github.com/roberto-andrade22/loan_default_classification/blob/main/data_preparation.ipynb)
