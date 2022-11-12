@@ -5,7 +5,7 @@ Roberto Andrade Martínez
 ### Summary
 <br>
 
-Given Home Credit's default risk [data](https://www.kaggle.com/competitions/home-credit-default-risk/data), this project aims to build classification algorithms that will predict whether or not a client will default on a loan. Secondly, the project also aims to begin building simpler models such as logistic regression classifiers, working up to XGboost to try and compare not only their accuracy but also their efficiency regarding computing power required to implement, as often the more complicated models may not be a feasible option to implement for some companies given the amount of resources they require to operate.
+Given Home Credit's default risk [data](https://www.kaggle.com/competitions/home-credit-default-risk/data), this project aims to build a classification algorithm that will predict whether or not a client will default on a loan. Secondly, due to the business nature of the problem, the project also aims to analyze different models to try and explain their financial implications when optimizing for different metrics. Finally, the project will aim to not only optimize statistical performance but also computing power efficiency: a marginal improvement in accuracy may not be an overall gain given the time the model takes to perform.
 
 As the objective of the project is only to predict, at no point will we touch on output interpretability nor try to point out the most prominent features that drive defaulting on a loan.
 
@@ -14,8 +14,6 @@ In order to accomplish this we will use Python and in particular [Scikit learn 1
 ### Content
 - [Data processing](https://github.com/roberto-andrade22/loan_default_classification/blob/main/data_preparation.ipynb)
 
-- [Trying different models](https://github.com/roberto-andrade22/loan_default_classification/blob/main/ML_predictions.ipynb)
+- [Model Tuning](https://github.com/roberto-andrade22/loan_default_classification/blob/main/ML_predictions.ipynb)
 
-- [XGBoost & its performance metrics]()
-
-- [Conclusions]()
+- [Different performance metrics and their business implications]()
