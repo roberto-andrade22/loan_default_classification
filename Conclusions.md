@@ -1,4 +1,4 @@
-### Implications of the model
+### **Implications of the model**
 
 The problem we are facing has some challenges: the data is highly imbalanced (around 92% of the observations are negative); we do not know the associated costs and benefits of a client defaulting or paying back, respectively; and the outcome itself is such a complex thing to predict (not a natural phenomenon were we may expect a parametric relationship to exist), that we may need to leverage data we don't have or extensively transform what we have to create features that may explain a client defaulting.
 
@@ -15,20 +15,6 @@ metrics.sort_values(by = 'roc_auc', ascending= False)
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
